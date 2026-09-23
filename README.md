@@ -5,7 +5,7 @@ Dormhub is a household/roommate management app — accounts, shared households, 
 ## Stack
 - **Backend:** Python
 - **Database:** MySQL
-- **Frontend:** JavaScript
+- **Frontend:** JavaScript, HTML, CSS
 
 ## Roadmap at a Glance
 
