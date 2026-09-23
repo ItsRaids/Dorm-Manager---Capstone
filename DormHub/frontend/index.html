@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dormhub</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Dormhub</h1>
+    <div>
+      <span id="user-greeting"></span>
+      <button id="logout-btn" style="margin-left: 1rem;">Log Out</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2 id="household-name">Household</h2>
+      <table id="members-table">
+        <thead>
+          <tr><th>Name</th><th>Role</th><th>Joined</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Invite Someone</h2>
+      <button id="generate-invite-btn">Generate Invite Link</button>
+      <p id="invite-result"></p>
+    </div>
+
+    <!-- TODO: placeholder for whatever Sprint 2+ adds (chores, expenses,
+         announcements, etc.) — not in scope for Sprint 1 -->
+  </main>
+
+  <script src="src/api.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>

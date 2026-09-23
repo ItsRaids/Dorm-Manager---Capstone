@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dormhub - Household</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Dormhub</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Create a Household</h2>
+      <form id="create-household-form">
+        <input type="text" id="household-name" placeholder="Household name" required />
+        <button type="submit">Create</button>
+        <p class="error" id="create-error"></p>
+      </form>
+    </div>
+
+    <div class="card">
+      <h2>Join a Household</h2>
+      <form id="join-household-form">
+        <input type="text" id="invite-code" placeholder="Invite code" required />
+        <button type="submit">Join</button>
+        <p class="error" id="join-error"></p>
+      </form>
+    </div>
+
+    <!-- TODO: once inside a household, this page (or the dashboard) should
+         also let an owner generate + share an invite. Consider whether
+         that belongs here or on index.html. -->
+  </main>
+
+  <script src="src/api.js"></script>
+  <script src="src/household.js"></script>
+</body>
+</html>
